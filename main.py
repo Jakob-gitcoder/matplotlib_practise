@@ -1,5 +1,5 @@
-from matplotlib import *
+import matplotlib.pyplot as plt
 
-print("see mee")
-
-print("I saw you")
+plt.plot([1, 2, 3, 4])
+plt.ylabel('some numbers')
+plt.show()
